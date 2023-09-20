@@ -4,6 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   // Not for production
   images: {
+    domains: ['s.yimg.com'],
     remotePatterns: [
       {
         protocol: 'https',
